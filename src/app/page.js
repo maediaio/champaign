@@ -10,7 +10,7 @@ export default function Home() {
         <section className="relative w-full h-[100vh] min-h-[850px] flex flex-col justify-between pt-[150px] md:pt-[130px] pb-32 px-6 overflow-hidden">
             {/* Background Image - Absolute to Section */}
             <div className="absolute inset-0 z-0">
-                <img alt="Champaign Plumbing Company Work Van on Jobsite" className="w-full h-full object-cover object-center" src="/images/workvan_jobsite.png" />
+                <img alt="Champaign Plumbing Company Work Van on Jobsite" className="w-full h-full object-cover object-center" src="/champaign/images/workvan_jobsite.png" />
                 <div className="absolute bottom-0 left-0 w-full h-1/4 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent backdrop-blur-[1px]"></div>
             </div>
 
@@ -119,7 +119,7 @@ export default function Home() {
                 <div className="flex items-center gap-4">
                     <div className="relative">
                         <div className="w-14 h-14 rounded-full bg-slate-100 overflow-hidden ring-4 ring-slate-50">
-                            <img alt="Marion - Owner" className="w-full h-full object-cover" src="/images/profile_photo.png" />
+                            <img alt="Marion - Owner" className="w-full h-full object-cover" src="/champaign/images/profile_photo.png" />
                         </div>
                         <div className="absolute bottom-0 right-0 w-4 h-4 bg-emerald-500 border-2 border-white rounded-full animate-pulse"></div>
                     </div>
