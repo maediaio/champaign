@@ -31,7 +31,7 @@ export default function ContactPage() {
 
   return (
     <>
-      <main className="pt-36 pb-16 px-6 max-w-lg mx-auto space-y-12">
+      <main className="pt-8 md:pt-12 pb-16 px-6 max-w-lg mx-auto space-y-12">
         {/* Hero Section */}
         <section className="space-y-6">
             <div className="space-y-3">
@@ -64,6 +64,37 @@ export default function ContactPage() {
                 {/* Abstract visual element */}
                 <div className="absolute -right-10 -bottom-10 opacity-10 scale-150">
                     <span className="material-symbols-outlined text-[120px]" data-icon="water_drop">water_drop</span>
+                </div>
+            </div>
+        </section>
+        
+        <section className="space-y-4">
+            <h3 className="text-[11px] font-extrabold font-manrope tracking-[0.2em] text-brand-blue uppercase">Headquarters
+            </h3>
+            <div className="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-100">
+                <div className="p-6 space-y-4">
+                    <div className="flex items-start gap-4">
+                        <span className="material-symbols-outlined text-slate-400 mt-1" data-icon="map">map</span>
+                        <div>
+                            <p className="font-bold text-slate-900 font-manrope pb-2">Charleston, SC</p>
+                            <p className="text-sm text-on-slate-100 font-semibold text-brand-blue tracking-[0.1em]"><a href="tel:8434600163">(843) 460-0163</a></p>
+                        </div>
+                    </div>
+                    <div className="h-px bg-slate-100"></div>
+                    <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-4">
+                            <span className="material-symbols-outlined text-slate-400" data-icon="schedule">schedule</span>
+                            <div>
+                                <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Office Hours
+                                </p>
+                                <p className="text-sm font-semibold font-manrope">08:00 AM — 06:00 PM</p>
+                            </div>
+                        </div>
+                        <a className="p-3 bg-brand-blue/10 rounded-full text-brand-blue active:scale-95 transition-transform"
+                            href="tel:8434600163">
+                            <span className="material-symbols-outlined" data-icon="phone">phone</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>

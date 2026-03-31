@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import ProjectCarousel from "@/components/ProjectCarousel";
 
 export default function Home() {
   return (
@@ -84,6 +85,8 @@ export default function Home() {
                 </div>
             </div>
         </section>
+
+        <ProjectCarousel />
 
         {/* Testimonial Section */}
         <section className="bg-brand-dark py-24 px-6 overflow-hidden relative opacity-0 animate-fade-in-up delay-200">

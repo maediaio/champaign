@@ -17,7 +17,7 @@ export default function ServicesPage() {
                 </div>
                 <div className="absolute right-[-10%] top-[-20%] w-2/3 h-[140%] opacity-15 pointer-events-none rotate-12">
                     <img alt="Professional plumbing engineering" className="w-full h-full object-cover"
-                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuBeTeSwzGs_8J_HRN5LtS2GnudAQVz61P9OMdbsOD8nleEYZmQVFVqLAGrwYtAvjPbuSDCEGQ8NPL1nBIOCFTNyZhgRHRQ1DFEIB9OGa9RktjJQM2xwBAaUoEmog98v-VLdY2M1__rSjVgxUIV3zu5OolRjTPxc42q7wnDNbx3bgctsmTyITMNc2_KSx_8hQ0YwKmh3YJMife1plwkKLxozEUQOpvy6iikvBkd5JjRkRkUeic-u_oWOwSYVxlRsG9JOXqhnwCNhJuA" />
+                        src="/champaign/images/jobsite_work/shower_install.jpeg" />
                 </div>
             </div>
         </section>
@@ -66,10 +66,6 @@ function ResidentialMenu() {
                         <p className="text-slate-600 leading-relaxed text-[15px] pt-1 sm:pt-0">Utilizing non-invasive acoustic detection technology to locate and repair concealed pipe failures inside your home with surgical precision.</p>
                     </Link>
 
-                    <Link href="/contact" className="flex flex-col sm:flex-row gap-1 sm:gap-6 sm:items-baseline group cursor-pointer hover:bg-slate-50 p-4 -mx-4 rounded-2xl transition-colors">
-                        <h3 className="text-lg font-headline font-bold text-slate-900 group-hover:text-brand-blue min-w-[220px] transition-colors">Hydro-Jetting</h3>
-                        <p className="text-slate-600 leading-relaxed text-[15px] pt-1 sm:pt-0">Restore 100% flow capacity to your home's pipes using safe hydro-jetting that clears drainage without abrasive chemicals.</p>
-                    </Link>
                 </div>
             </div>
 
@@ -123,10 +119,6 @@ function CommercialMenu() {
                         <p className="text-slate-600 leading-relaxed text-[15px] pt-1 sm:pt-0">Industrial-grade acoustic detection technology to locate and repair concealed pipe failures under concrete grids with surgical precision.</p>
                     </Link>
 
-                    <Link href="/contact" className="flex flex-col sm:flex-row gap-1 sm:gap-6 sm:items-baseline group cursor-pointer hover:bg-slate-50 p-4 -mx-4 rounded-2xl transition-colors">
-                        <h3 className="text-lg font-headline font-bold text-slate-900 group-hover:text-brand-blue min-w-[220px] transition-colors">Industrial Jetting</h3>
-                        <p className="text-slate-600 leading-relaxed text-[15px] pt-1 sm:pt-0">Restore 100% flow capacity with high-pressure hydro-jetting that clears large-scale architectural drainage blocks.</p>
-                    </Link>
                 </div>
             </div>
 

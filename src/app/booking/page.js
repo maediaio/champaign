@@ -31,7 +31,7 @@ export default function BookingPage() {
 
   return (
     <>
-      <main className="pt-36 pb-12 px-6 max-w-2xl mx-auto">
+      <main className="pt-8 md:pt-12 pb-12 px-6 max-w-2xl mx-auto">
         {/* Hero Section */}
         <section className="mb-12">
             <h1 className="font-manrope font-extrabold text-4xl tracking-tight text-slate-900 mb-4">Precision Engineering
