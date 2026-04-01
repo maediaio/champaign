@@ -49,10 +49,10 @@ export default function Header() {
             <Link href="/contact" className="text-sm font-bold font-manrope text-slate-600 hover:text-brand-blue transition-colors uppercase tracking-wider">Contact</Link>
           </nav>
           <div className="flex items-center gap-3">
-            <a href="tel:8434600163" className="group flex items-center gap-2 bg-emergency-red hover:bg-red-800 text-white px-5 py-3 rounded-xl font-manrope font-extrabold text-xs uppercase tracking-widest transition-all shadow-lg shadow-red-500/30 active:scale-95 animate-pulse-glow">
-              <span className="material-symbols-outlined" style={{ fontVariationSettings: '"FILL" 1' }}>phone_in_talk</span>
+            <Link href="/contact" className="group flex items-center gap-2 bg-emergency-red hover:bg-red-800 text-white px-5 py-3 rounded-xl font-manrope font-extrabold text-xs uppercase tracking-widest transition-all shadow-lg shadow-red-500/30 active:scale-95 animate-pulse-glow">
+              <span className="material-symbols-outlined" style={{ fontVariationSettings: '"FILL" 1' }}>contact_support</span>
               <span className="hidden sm:inline">Emergency</span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

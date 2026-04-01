@@ -54,12 +54,11 @@ export default function ContactPage() {
                     </div>
                     <p className="text-white/90 font-medium">Average arrival time: <span className="font-bold">45 minutes</span>
                     </p>
-                    <a className="flex items-center justify-center gap-2 w-full bg-white text-brand-blue py-4 rounded-xl font-bold font-manrope tracking-wide transition-all active:scale-95 shadow-lg hover:bg-slate-50"
-                        href="tel:8434600163">
-                        <span className="material-symbols-outlined" data-icon="call" data-weight="fill"
-                            style={{ fontVariationSettings: "'FILL' 1" }}>call</span>
-                        TAP TO CALL NOW
-                    </a>
+                    <Link href="/contact" className="flex items-center justify-center gap-2 w-full bg-white text-brand-blue py-4 rounded-xl font-bold font-manrope tracking-wide transition-all active:scale-95 shadow-lg hover:bg-slate-50">
+                        <span className="material-symbols-outlined" data-icon="mail" data-weight="fill"
+                            style={{ fontVariationSettings: "'FILL' 1" }}>mail</span>
+                        SEND MESSAGE
+                    </Link>
                 </div>
                 {/* Abstract visual element */}
                 <div className="absolute -right-10 -bottom-10 opacity-10 scale-150">
@@ -77,7 +76,7 @@ export default function ContactPage() {
                         <span className="material-symbols-outlined text-slate-400 mt-1" data-icon="map">map</span>
                         <div>
                             <p className="font-bold text-slate-900 font-manrope pb-2">Charleston, SC</p>
-                            <p className="text-sm text-on-slate-100 font-semibold text-brand-blue tracking-[0.1em]"><a href="tel:8434600163">(843) 460-0163</a></p>
+                            <p className="text-sm text-on-slate-100 font-semibold text-brand-blue tracking-[0.1em]"><Link href="/contact">Send us a message</Link></p>
                         </div>
                     </div>
                     <div className="h-px bg-slate-100"></div>
@@ -90,10 +89,9 @@ export default function ContactPage() {
                                 <p className="text-sm font-semibold font-manrope">08:00 AM — 06:00 PM</p>
                             </div>
                         </div>
-                        <a className="p-3 bg-brand-blue/10 rounded-full text-brand-blue active:scale-95 transition-transform"
-                            href="tel:8434600163">
-                            <span className="material-symbols-outlined" data-icon="phone">phone</span>
-                        </a>
+                        <Link href="/contact" className="p-3 bg-brand-blue/10 rounded-full text-brand-blue active:scale-95 transition-transform">
+                            <span className="material-symbols-outlined" data-icon="mail">mail</span>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -115,7 +113,7 @@ export default function ContactPage() {
             )}
             {status === "error" && (
                 <div className="bg-red-50 text-red-700 p-4 rounded-xl border border-red-200 font-bold mb-4">
-                    Failed to send message. Please try again or call us.
+                    Failed to send message. Please try again.
                 </div>
             )}
             <form className="space-y-5" onSubmit={handleSubmit}>

@@ -3,31 +3,31 @@ import { useState, useEffect } from 'react';
 
 const slides = [
   {
-    image: "/champaign/images/bathrooms/IMG_5577.jpeg",
+    image: "/images/bathrooms/IMG_5577.jpeg",
     tag: "Bath & Kitchen",
     title: "Luxury Bathtub Installation",
     desc: "Designer freestanding soaking tub with custom plumbing for a premium coastal home renovation."
   },
   {
-    image: "/champaign/images/bathrooms/IMG_5570.jpeg",
+    image: "/images/bathrooms/IMG_5570.jpeg",
     tag: "Trim Out",
     title: "Walk-In Shower Plumbing Trim",
     desc: "Complete plumbing trim out including shower valve, drain assembly, and fixture connections for a custom walk-in shower."
   },
   {
-    image: "/champaign/images/jobsite_work/tankles_waterheater.jpeg",
+    image: "/images/jobsite_work/tankles_waterheater.jpeg",
     tag: "Water Systems",
     title: "Tankless Water Heater Install",
     desc: "Energy-efficient Camplux tankless unit with full gas line and water connection setup."
   },
   {
-    image: "/champaign/images/bathrooms/IMG_5575.jpeg",
+    image: "/images/bathrooms/IMG_5575.jpeg",
     tag: "Trim Out",
     title: "Shower Valve & Fixture Set",
     desc: "Final plumbing trim with supply line connections, shower valve installation, and fixture mounting."
   },
   {
-    image: "/champaign/images/jobsite_work/shower_install.jpeg",
+    image: "/images/jobsite_work/shower_install.jpeg",
     tag: "New Construction",
     title: "Shower Rough-In & Base Set",
     desc: "PEX supply line routing, drain positioning, and shower base installation for new build."

@@ -17,7 +17,7 @@ export default function ServicesPage() {
                 </div>
                 <div className="absolute right-[-10%] top-[-20%] w-2/3 h-[140%] opacity-15 pointer-events-none rotate-12">
                     <img alt="Professional plumbing engineering" className="w-full h-full object-cover"
-                        src="/champaign/images/jobsite_work/shower_install.jpeg" />
+                        src="/images/jobsite_work/shower_install.jpeg" />
                 </div>
             </div>
         </section>

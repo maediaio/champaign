@@ -11,7 +11,7 @@ export default function Home() {
         <section className="relative w-full h-[100vh] min-h-[850px] flex flex-col justify-between pt-[150px] md:pt-[130px] pb-32 px-6 overflow-hidden">
             {/* Background Image - Absolute to Section */}
             <div className="absolute inset-0 z-0">
-                <img alt="Champaign Plumbing Company Work Van on Jobsite" className="w-full h-full object-cover object-center" src="/champaign/images/workvan_jobsite.png" />
+                <img alt="Champaign Plumbing Company Work Van on Jobsite" className="w-full h-full object-cover object-center" src="/images/workvan_jobsite.png" />
                 <div className="absolute bottom-0 left-0 w-full h-1/4 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent backdrop-blur-[1px]"></div>
             </div>
 
@@ -30,10 +30,10 @@ export default function Home() {
                     <Link href="/booking" className="bg-brand-blue hover:bg-brand-dark flex-1 text-white py-4 px-8 rounded-xl font-headline font-bold shadow-2xl active:scale-[0.98] transition-all text-center flex items-center justify-center border border-sky-400/20">
                         Schedule Service
                     </Link>
-                    <a href="tel:8434600163" className="bg-white/95 backdrop-blur hover:bg-white flex-1 text-brand-dark border border-white py-4 px-8 rounded-xl font-headline font-bold active:scale-[0.98] transition-all text-center flex items-center justify-center gap-2 shadow-2xl">
-                        <span className="material-symbols-outlined text-brand-blue" data-icon="emergency_home">emergency_home</span>
+                    <Link href="/contact" className="bg-white/95 backdrop-blur hover:bg-white flex-1 text-brand-dark border border-white py-4 px-8 rounded-xl font-headline font-bold active:scale-[0.98] transition-all text-center flex items-center justify-center gap-2 shadow-2xl">
+                        <span className="material-symbols-outlined text-brand-blue" data-icon="contact_support">contact_support</span>
                         24/7 Emergency Repair
-                    </a>
+                    </Link>
                 </div>
             </div>
         </section>
@@ -122,21 +122,21 @@ export default function Home() {
                 <div className="flex items-center gap-4">
                     <div className="relative">
                         <div className="w-14 h-14 rounded-full bg-slate-100 overflow-hidden ring-4 ring-slate-50">
-                            <img alt="Marion - Owner" className="w-full h-full object-cover" src="/champaign/images/profile_photo.png" />
+                            <img alt="Marion - Owner" className="w-full h-full object-cover" src="/images/profile_photo.png" />
                         </div>
                         <div className="absolute bottom-0 right-0 w-4 h-4 bg-emerald-500 border-2 border-white rounded-full animate-pulse"></div>
                     </div>
                     <div>
-                        <h4 className="text-sm font-bold font-headline text-slate-900 group-hover:text-brand-blue transition-colors">Dispatch: Marion (Owner)</h4>
+                        <h4 className="text-sm font-bold font-headline text-slate-900 group-hover:text-brand-blue transition-colors">Dispatch: Marion</h4>
                         <div className="flex items-center gap-2 mt-1">
                             <span className="bg-emerald-50 text-[9px] font-bold px-2 py-0.5 rounded text-emerald-600 border border-emerald-100">ON DUTY</span>
                             <span className="text-[10px] text-slate-500 font-medium">Available Now</span>
                         </div>
                     </div>
                 </div>
-                <a href="tel:8434600163" className="bg-gradient-to-br from-brand-blue to-primary w-12 h-12 rounded-full flex items-center justify-center text-white shadow-lg shadow-brand-blue/30 hover:scale-105 active:scale-95 transition-all">
-                    <span className="material-symbols-outlined" data-icon="call">call</span>
-                </a>
+                <Link href="/contact" className="bg-gradient-to-br from-brand-blue to-primary w-12 h-12 rounded-full flex items-center justify-center text-white shadow-lg shadow-brand-blue/30 hover:scale-105 active:scale-95 transition-all">
+                    <span className="material-symbols-outlined" data-icon="contact_support">contact_support</span>
+                </Link>
             </div>
         </div>
     </main>

@@ -64,8 +64,8 @@ export default function Footer() {
                 <p>Charleston, SC</p>
               </div>
               <div className="flex items-center gap-3">
-                <span className="material-symbols-outlined text-primary">phone</span>
-                <a href="tel:8434600163" className="hover:text-primary transition-colors text-white font-bold">(843) 460-0163</a>
+                <span className="material-symbols-outlined text-primary">contact_support</span>
+                <Link href="/contact" className="hover:text-primary transition-colors text-white font-bold">Contact Us</Link>
               </div>
             </div>
           </div>

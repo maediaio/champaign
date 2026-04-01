@@ -48,7 +48,7 @@ export default function BookingPage() {
         )}
         {status === "error" && (
             <div className="bg-red-50 text-red-700 p-6 rounded-md border border-red-200 font-bold mb-6 text-lg">
-                Failed to request booking. Please try again or call us.
+                Failed to request booking. Please try again.
             </div>
         )}
         <form className="space-y-8" onSubmit={handleSubmit}>

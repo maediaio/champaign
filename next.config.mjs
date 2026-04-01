@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/champaign',
-  assetPrefix: '/champaign',
+  // Empty config - removed basePath for dedicated domain deployment
 };
 
 export default nextConfig;
